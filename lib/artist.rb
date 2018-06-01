@@ -26,12 +26,7 @@ def songs
 end
 
 def genres
-
-  puts "hdhdhd #{songs}"
-  puts "jkfdkdfjkj #{Song.all}"
-  puts "nikki: #{songs.map {|song| song.genre}}"
   songs.map {|song| song.genre}
-  #binding.pry
 end
 
 
