@@ -10,7 +10,7 @@ end
 
 
 def new_song(name, artist)
-  new_song = Song.new(name, self, artist)
+  new_song = Song.new(name, artist, self)
 end
 
 def songs
