@@ -22,6 +22,6 @@ class Doctor
 
   end
 
-  
+
 
 end
